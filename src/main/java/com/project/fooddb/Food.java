@@ -16,14 +16,14 @@ public class Food {
     @Column(name = "에너지(kcal)")
     private int kcal;
 
-    @Column(name = "탄수화물(g)")
-    private float carbs;
-
     @Column(name = "단백질(g)")
     private float protein;
 
     @Column(name = "지방(g)")
     private float fat;
+
+    @Column(name = "탄수화물(g)")
+    private float carbs;
 
     @Column(name = "당류(g)")
     private float sugars;
